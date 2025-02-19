@@ -22,8 +22,8 @@ lsblk > "$COLLECTED_DIR/disk_info.txt"  # Salva a lista de discos e partições
 
 # Coletando informações de conexões de rede
 echo "\033[0;95mColetando informações de rede...\033[0m"
-ss > "$COLLECTED_DIR/active_connections.txt"  # Salva conexões ativas
-netstat > "$COLLECTED_DIR/open_ports.txt"  # Salva as portas abertas
+ss > "$COLLECTED_DIR/active_connections.txt"  
+netstat > "$COLLECTED_DIR/open_ports.txt"  
 
 # Coletando lista de processos
 echo "\033[0;95m Coletando lista de processos...\033[0m"
